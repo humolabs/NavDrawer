@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_primarias"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Primarias"/>
+
+        <item
+            android:id="@+id/menu_secundarias"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Secundarias"/>
+
+        <item
+            android:id="@+id/menu_tecnicas"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Técnicas"/>
+    </group>
+
+    <item android:title="otras opciones">
+        <menu>
+            <item
+                android:id="@+id/menu_contacto"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="Contactenos"/>
+        </menu>
+    </item>
+
+</menu>
